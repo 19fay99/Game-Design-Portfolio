@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Fay's Work</title>
+
+    <link id= "icon" rel = "icon" href = "img/redAF.png">
+    <link id= "style" rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div id = "nav">
+                <a href = "index.html" class = "navLink">My Work</a></li>
+                <a href = "experiences.html" class = "navLink">Experience</a></li>
+                <a href = "about.html" class = "navLink">About Me</a></li>
+                
+                
+                <button id="blueButton" onClick = "swapStyleSheetBlue('blue.css')"></button>
+                <button id="redButton" onClick = "swapStyleSheetRed('style.css')"></button>
+        </div>
+        <div class= "logo">
+            <img id="red" src="img/redAF.png" alt ="logo">
+            <img id="blue" src="img/blueAF.png" alt ="logo">
+        </div>
+    </header>
+
+     <!--My Work-->
+     <section class= "myWork" id = "work">
+        <h2 class = "sectionTitle sectionTitleWork">Andrew Fay's Game Design Portfolio</h2>
+        <p class = "sectionSubtitleWork">A Portion of Completed Game Projects</p>
+
+        <div class="portfoliopics">
+             <!--Portfolio picture 01-->
+             <h2 class = "sectionTitle sectionTitleGame">Chunky Bowling</h2>
+             <a href="#" class="portitem">
+                <img src="img/Chunky.png" alt="ChunkyBowling" class="portimagechunk">
+            </a>
+            
+            <!--Portfolio picture 02-->
+            <h2 class = "sectionTitle sectionTitleGame">Kick Boxes</h2>
+            <a href="#" class="portitem">
+                <img src="img/Kick.png" alt="KickBoxes" class="portimage">
+            </a>
+
+            <!--Portfolio picture 03-->
+            <h2 class = "sectionTitle sectionTitleGame">Turtleboy</h2>
+            <a href="#" class="portitem" id="noisebox">
+                <img src="img/Turtleboy.png" alt="Turtleboy" class="portimage">
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class = "experiences" id= "experiences">
+        <h2 class = "sectionTitle sectionTitleDescription">A Breakdown</h2>
+        <div class ="experiences">
+            
+            <div class = "experience">
+                <div class = "colorTitle">
+                    <h3>Chunky Bowling</h3>
+                </div>
+                <p>Chunky Bowling is a physics based bowling simulator and was solely developed by myself. I was extremely happy with how it turned out, as it was the first game I had ever made. I was able to experiment with some interesting concepts like camera switching and an extra game mode where the bowling pins spawned within a random range.</p>
+                <p></p>
+                <p>Controls: Use WASD to move the player. Press the Spacebar to throw bowling balls. Press the “C” key to swap between the Main Camera and a Secondary Camera. Press the “R” key to reset. Press the “Z” key to play Original Bowling. Press the “X” key to play Random Bowling! Note: Only one ball can be thrown at a time as it waits for the previous ball to be destroyed.</p>
+                <a href="https://afaymats.itch.io/chunky-bowling" class = "socialList"><img src="img/Bowl.png" alt="Chunky Bowling"></a>
+                <p>Click to load game in browser</p>
+                <a href="Chunky_Bowling_WIN.zip"class = "socialList"><img src="img/windows.png" alt="Chunky Bowling Download"></a>
+                <p>Click to download the Chunky Bowling zip file for Windows</p>
+                <p></p>
+                <h2 class = "sectionTitle sectionTitleDescription"></h2>
+            </div>
+
+            <div class = "experience">
+                <div class = "colorTitle">
+                    <h3>Kick Boxes</h3>
+                </div>
+                <p>Kick Boxes was created by a team of two people, myself and Adam Brochu. The goal of the game is to kick boxes that are spawning into the enemy aliens ship, and the first player to reach twenty points wins.</p>
+                <p></p>
+                <p>Controls: Player 1 uses WASD to move. Player 2 uses the arrow keys to move.</p>
+                <a href="https://afaymats.itch.io/kick-boxes" class = "socialList"><img src="img/purple_player_down.png" alt="Kick Boxes"></a>
+                <p>Click to load game in browser</p>
+                <a href="Kick_Boxes_WIN.zip"class = "socialList"><img src="img/windows.png" alt="Kick Boxes"></a>
+                <p>Click to download the Kick Boxes zip file for Windows</p>
+                <a href="https://wildodyssey.itch.io/" class = "socialList">Adam Brochu's itch.io</a>
+                <p></p>
+                <h2 class = "sectionTitle sectionTitleDescription"></h2>
+            </div>
+
+            <div class = "experience">
+                <div class = "colorTitle">
+                    <h3>Turtleboy</h3>
+                </div>
+                <p>Turtleboy is a 2D platformer developed by myself and is a work in progress. The screenshot provided shows the conceptual design, and a glimpse of what could be, as its currently in active developoment.</p>
+                <a href="https://afaymats.itch.io/" class = "socialList"><img src="img/Turtleboy_sprite-bicubic.png" alt="Turtleboy"></a>
+                <p>Click to load game in browser</p>
+                <p></p>
+                <h2 class = "sectionTitle sectionTitleDescription"></h2>
+            </div>
+
+        </div>
+    </section>
+    <!--Footer-->
+    <footer>
+        <a href = "mailto:andrewafay@gmail.com" class="footerLink">andrewafay@gmail.com</a>
+        <ul class = "socialList">
+            <li class = "socialListItem"><a class="socialListLink" href = "https://www.instagram.com/19fay99/"><img src="img/Insta.png" alt="instagram" target="_blank"></a></li>
+            <li class = "socialListItem"><a class="socialListLink" href = "https://github.com/19fay99"><img src="img/git.png" alt= "github" target="_blank"></a></li>
+            <li class = "socialListItem"><a class="socialListLink" href = "https://www.linkedin.com/in/andrew-fay-matseas-69339a234/"><img src="img/Linkedin.png" alt= "linkedin" target="_blank"></a></li>
+
+        </ul>
+    </footer>
+    
+    <script src = "script.js"></script>
+</body>
+</html>
